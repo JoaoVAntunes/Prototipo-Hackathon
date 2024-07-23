@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verificação de Equivalências</title>
+</head>
+<body>
+    <h1>Verificação de Equivalências para Profissional {{ professional.name }}</h1>
+    <form method="POST">
+        <label for="state_to">Estado de Destino:</label>
+        <input type="text" id="state_to" name="state_to" required>
+
+        <button type="submit">Verificar Equivalências</button>
+    </form>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+</body>
+</html>
