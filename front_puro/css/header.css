@@ -1,0 +1,11 @@
+header {
+    width: 1440px;
+    height: 130px;
+    background: linear-gradient(270deg, #00509B 0%, #007BFF 33.33%, #0693E3 66.67%, #8ED1FC 100%);
+}
+
+.pelicula-preta {
+    width: 1440px;
+    height: 130px;
+    background: rgba(0, 0, 0, 0.50);
+}

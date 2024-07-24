@@ -1,0 +1,79 @@
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+:root {
+    --cinza-primario: #A0A0A0;
+    --cinza-secundario: #F0F0F0;
+    --cinza-fontes: #F5F5F5;
+}
+
+.btn-primario {
+
+}
+
+.btn-secundario{
+
+}
+
+.btn-terciario{
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    color: var(--cinza-fontes);
+    background-color: transparent;
+    border: 2px solid var(--cinza-fontes);
+    border-radius: 50px; 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.input{
+    font-family: "Lato", sans-serif;
+    border-radius: 5px;
+    padding-left: 15px ;
+    margin-top: 50px !important;
+    border: none;
+    height: 45px;
+    color: var(--cinza-primario);
+    background-color: var(--cinza-secundario);
+    width: 100%;
+}
+
+.input:focus, .input:hover {
+    outline: #000000 !important;
+    border: 1px solid #000000 !important;
+}
+
+span{
+    font-weight: bold;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 16px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+background: #c4c4c4;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+background-color: #797979;    /* color of the scroll thumb */
+border-radius: 20px;       /* roundness of the scroll thumb */
+border: 1px solid  #d4d4d4;;  /* creates padding around scroll thumb */
+}
+
